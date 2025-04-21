@@ -214,3 +214,200 @@
 // }
 // test();
 // console.log(d);
+
+// let x = 10;
+// {
+//   let x = 20;
+//   console.log(x);
+// }
+// console.log(x);
+
+// var y = 10;
+// {
+//   let y = 20;
+//   console.log(y);
+// }
+// console.log(y);
+
+// let z = 10;
+// {
+//   var z = 20;
+//   console.log(z);
+// }
+// console.log(z);
+
+// const a = 10;
+// {
+//   var a = 20;
+//   console.log(a);
+// }
+// console.log(a);
+
+// function foo() {
+//     var b = 1;
+//     if (true) {
+//       let b = 2;
+//       console.log(b);
+//     }
+//     console.log(b);
+//   }
+//   foo();
+
+// console.log(a);
+// let a = 5;
+
+// console.log(b);
+// const b = 5;
+
+// console.log(c);
+// var c = 5;
+
+// let d = 10;
+// function test() {
+//   console.log(d);
+//   let d = 20;
+// }
+// test();
+
+// var e = 10;
+// function test() {
+//   console.log(e);
+//   var e = 20;
+// }
+// test();
+
+// let x = 1;
+// function foo() {
+//   var x = 2;
+//   console.log(x);
+// }
+// foo();
+// console.log(x);
+
+// var y = 1;
+// function bar() {
+//   let y = 2;
+//   console.log(y);
+// }
+// bar();
+// console.log(y);
+
+// const z = 1;
+// function baz() {
+//   const z = 2;
+//   console.log(z);
+// }
+// baz();
+// console.log(z);
+
+// if (true) {
+//   var a = 1;
+//   let b = 2;
+//   const c = 3;
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// function test() {
+//     console.log(x);
+//     var x = 10;
+//   }
+//   test();
+
+// function test() {
+//     console.log(y);
+//     let y = 10;
+//   }
+//   test();
+
+// function test() {
+//     console.log(z);
+//     const z = 10;
+//   }
+//   test();
+
+// var a = 1;
+// function foo() {
+//   if (!a) {
+//     var a = 2;
+//   }
+//   console.log(a);
+// }
+// foo();
+
+// let b = 1;
+// function bar() {
+//   if (!b) {
+//     let b = 2;
+//   }
+//   console.log(b);
+// }
+// bar();
+
+// var a = 10;
+// console.log(window.a);
+
+// let b = 20;
+// console.log(window.b);
+
+// const c = 30;
+// console.log(window.c);
+
+// function test() {
+//   d = 40; // No declaration
+//   console.log(d);
+// }
+// test();
+// console.log(d);
+// console.log(window.d);
+
+// let x = 1;
+// {
+//   let x = 2;
+//   {
+//     let x = 3;
+//     console.log(x);
+//   }
+//   console.log(x);
+// }
+// console.log(x);
+
+// var y = 1;
+// {
+//   let y = 2;
+//   {
+//     var y = 3;
+//     console.log(y);
+//   }
+//   console.log(y);
+// }
+// console.log(y);
+
+// let z = 1;
+// {
+//   let z = 2;
+//   {
+//     console.log(z);
+//     let z = 3;
+//   }
+// }
+
+// const a = 1;
+// {
+//   const a = 2;
+//   {
+//     console.log(a);
+//     const a = 3;
+//   }
+// }
+
+// var b = 1;
+// function foo() {
+//   var b = 2;
+//   function bar() {
+//     console.log(b);
+//   }
+//   bar();
+// }
+// foo();
