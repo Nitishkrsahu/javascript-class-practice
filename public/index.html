@@ -9,31 +9,11 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body>
-    <form class="w-25">
-        <div>
-            <label for="name" class="form-label">Name: </label>
-            <div>
-                <input type="text" class="form-control" name="name">
-            </div>
-        </div>
-        <div>
-            <label for="name" class="form-label">Name: </label>
-            <div>
-                <input type="text" class="form-control" name="name">
-            </div>
-        </div>
-        <div>
-            <label for="name" class="form-label">Name: </label>
-            <div>
-                <input type="text" class="form-control" name="name">
-            </div>
-        </div><div>
-            <label for="name" class="form-label">Name: </label>
-            <div>
-                <input type="text" class="form-control" name="name">
-            </div>
-        </div>
-        <button class="btn btn-warning w-100">Register</button>
-    </form>
+    <div class="alert alert-danger alert-dismissible" id="alertBox">
+            <button class="btn-close" data-bs-dismiss="alert" data-bs-target="#alertBox"></button>
+            <h2 class="alert-heading">Message</h2>
+            <p>Are you want to delete ?</p>
+            <a href="#" class="alert-link">Help?</a>
+    </div>
 </body>
 </html>
